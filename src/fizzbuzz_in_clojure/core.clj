@@ -8,3 +8,7 @@
 (defn divisible-by-three [number]
 		(zero? (mod number 3))
 		)
+
+(defn divisible-by-five [number]
+		(zero? (mod number 5))
+		)
