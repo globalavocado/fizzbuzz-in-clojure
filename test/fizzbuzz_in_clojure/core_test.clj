@@ -10,7 +10,6 @@
 (deftest is-not-divisible-by-three
 	(testing "returns false for 1")
 	(is (= false (divisible-by-three 1)))
-
 )
 
 (deftest is-divisible-by-five
@@ -22,3 +21,15 @@
 	(testing "returns false for 4")
 	(is (= false (divisible-by-five 4)))
 )
+
+(deftest is-divisible-by-fifteen
+	(testing "returns true for 15")
+	(is (= true (divisible-by-fifteen 15)))
+)
+
+(deftest is-not-divisible-by-fifteen
+	(testing "returns false for 14")
+	(is (= false (divisible-by-fifteen 14)))
+)
+
+
