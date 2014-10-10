@@ -4,7 +4,7 @@ A Clojure library designed to ... play fizzbuzz!
 
 ## Usage
 
-FIXME
+install & play - or just look at the code.
 
 ## License
 
